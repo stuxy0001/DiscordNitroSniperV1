@@ -1,0 +1,83 @@
+https://discord.com/billing/promotions/CQ5gma6x9KesCfdmeecZzAtj
+https://discord.com/billing/promotions/CQ5gma6x9KesCfdmeecZzAtj
+gifts acima /\ pegem ai
+
+METODO NITRO GARANTIDO [INFINITO] By stuxy#0001 (dev-discord)
+---------------------------------------------------------------------------------
+TUTORIAL EM TEXTO:
+---------------------------------------------------------------------------------
+1- Crie uma conta nesse site.
+Site: https://replit.com/
+---------------------------------------------------------------------------------
+2- Importe esse link do GITHUB dentro do seu Replit (como feito no video).
+https://github.com/stuxy0001/nitros
+---------------------------------------------------------------------------------
+3- Adicione uma SECRET no seu REPLIT com os seus settings
+
+Abra o arquivo settings.env copie e cole tudo no secrets no nome settings e valor e oque voce copiou.
+
+Você precisa modificar as "settings" com seus 'tokens' e seu 'webhook',
+como ensinado no tutorial abaixo.
+---------------------------------------------------------------------------------
+4- Como adicionar os tokens para pegar os NITROS e mudar a webhook:
+
+Main= É o token da conta principal que receberá o nitro automaticamente
+(token não pode ser de conta com MFA se não buga.)
+Alt= São os tokens das contas alternativas que entrarão nos servers e
+pegarão os nitros. Essas contas Alt você pode criar uma conta e pegar o TOKEN dela.
+
+Coloque suas "settings" no seu REPLIT,
+nessa parte que você tem que editar pra por os tokens.
+
+ex:
+
+{
+  "tokens": {
+    "main": 'token principal',
+    "alts": [
+      'token alt',
+      'token alt',
+      'token alt',
+      'token alt',
+      'token alt'
+
+Voce coloca o token principal no lugar que está igual na desmonstração
+ai de cima e os tokens das outras contas no lugar onde ta token alt
+na demonstração de cima também, o ultimo token alt vc tira a virgula do final.
+
+Para mudar a webhook você procura essa parte na default settings:
+
+   webhook: {
+      // URL to fire webhook to for notifications
+	  (ex: https://discord.com/api/webhooks/.../...)
+      url: '',
+
+E insira o url da sua webhook entre as aspas depois do "url:"
+
+OS NITROS VÃO CHEGAR NESSE WEBHOOK
+---------------------------------------------------------------------------------
+PRONTO, AGORA É SÓ APERTAR EM RUN NO SITE.
+Caso de um erro como esse: 
+npm ERR! code ENOENT
+
+Digite "node ." (sem as aspas) e de enter, ele resolverá o problema.
+---------------------------------------------------------------------------------
+PARA ENCERRAR:
+
+Como pegar varios NITROS? 
+Simples coloque varias contas (alts) e entre em varios servers, procure servers de comunidade e este tipo de coisa. Esse site abaixo tem uma lista de varios servers, divididos por categoria.
+https://disboard.org/servers/category/community
+
+Caso queira pegar varios nitros rapidamente, aconselho mais de 1k de servidores, se estiver em menos que isso é comum que demore e você pegue 1 ou 2 por mês, pois vai depender da sua sorte a velocidade.
+Se entrar em varios servers nos tokens alternativos no mesmo IP precisará trocar de IP com VPN ou 4G.
+---------------------------------------------------------------------------------
+Tutorial de como pegar o TOKEN de uma conta, caso não saiba:
+https://teg6.com/37021/noticias/como-obter-seu-token-discord/#:~:text=Abrir%20Ferramentas%20de%20desenvolvimentoentão%20clique,encontrar%20seu%20token%20do%20Discord.
+---------------------------------------------------------------------------------
+ERROS COMUNS:
+
+Invalid Settings: Você errou alguma mudança na hora de colocar as settings na sua secret.
+Couldn't log into main account: Sua MAIN tem MFA (autentificação de dois fatores) precisa remover.
+npm ERR! code ENOENT: Digite "node ." (sem as aspas) e de enter, ele resolverá o problema.
+
+Por fim é isso, fazendo o tutorial corretamente não há erro, lembrando que qualquer compartilhamento é ban e perda do funcionamento.
