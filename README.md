@@ -1,7 +1,7 @@
 <div align="center">
    <img src="/assets/banner.png" />
-   <a href="https://github.com/stuxy0001"><img align="center" alt="Author"></a>
-   <a href="https://github.com/stuxy0001/DiscordNitroSniperV1"><img align="center" alt="Stars"></a>
+   <a href="https://github.com/stuxy0001"><img align="center"></a>
+   <a href="https://github.com/stuxy0001/DiscordNitroSniperV1"></a>
 </div>
 
 ---
